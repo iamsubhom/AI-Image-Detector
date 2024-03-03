@@ -1,7 +1,6 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
-import pickle
 import tensorflow as tf 
 
 #model=pickle.load(open("E:\\MyProjects\\\AI-Generated-Images-Classifier\\model\\modelai.pkl", "rb"))
