@@ -1,5 +1,5 @@
 # AI Generated Images Detector 
-
+# (Live Demo Link)[https://ai-image-detector.streamlit.app/]
 The proliferation of AI-generated images has raised significant concerns regarding their authenticity and trustworthiness. This project aims to address these concerns by developing an advanced image classification model capable of accurately detecting AI-generated images.
 
 ## Dataset:
