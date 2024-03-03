@@ -7,7 +7,7 @@ import tensorflow as tf
 
 @st.cache(allow_output_mutation=True)
 def load_model():
-  model=tf.keras.models.load_model('E:\MyProjects\AI-Generated-Images-Classifier\my_model_ai_classify.hdf5')
+  model=tf.keras.models.load_model('my_model_ai_classify.hdf5')
   return model
 with st.spinner('Model is being loaded..'):
   model=load_model()
