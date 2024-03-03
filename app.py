@@ -43,4 +43,4 @@ if uploaded_image is not None:
     else:
         st.write('Real Image')
 
-st.markdown('##[Connect Me in LinkedIn](https://www.linkedin.com/in/iamsubhom)')
+st.markdown('[Connect Me in LinkedIn](https://www.linkedin.com/in/iamsubhom)')
