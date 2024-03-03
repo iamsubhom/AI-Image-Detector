@@ -7,7 +7,7 @@ The proliferation of AI-generated images has raised significant concerns regardi
 For this project, we utilize the CIFAKE dataset, which comprises 60,000 synthetically-generated images and an equal number of real images sourced from CIFAR-10. This diverse dataset enables robust training and evaluation of our model.
 
 ![CIFAKE Dataset](dataset-cover.png)
-
+[Link to Dataset](https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images/data)
 ## Tools and Libraries:
 
 TensorFlow is employed for model development and training, leveraging the computational power of a  GPU to expedite the process  d.
