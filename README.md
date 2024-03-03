@@ -34,7 +34,6 @@ TensorFlow is employed for model development and training, leveraging the comput
   - Dropout layer with a rate of 0.5 to mitigate overfitting.
   - Final dense layer with a single unit and sigmoid activation for binary classification.
 
-![Model Architecture](https://example.com/model_architecture.png)
 
 ## Model Training and Evaluation:
 
@@ -47,7 +46,6 @@ TensorFlow is employed for model development and training, leveraging the comput
 
 ### Plots of Model Accuracy and Loss:
 
-![Accuracy and Loss Plots](https://example.com/accuracy_loss_plots.png)
 
 - Precision: 0.949
 - Recall: 0.892
@@ -55,11 +53,10 @@ TensorFlow is employed for model development and training, leveraging the comput
 
 ### Classification Report:
 
-![Classification Report](https://example.com/classification_report.png)
 
 ### Confusion Matrix:
 
-![Confusion Matrix](https://example.com/confusion_matrix.png)
+
 
 The model demonstrates robust performance, achieving an overall accuracy of 92%. Notably, it exhibits high recall for AI-generated images while maintaining precision for real images, indicative of its effectiveness in distinguishing between the two categories.
 
