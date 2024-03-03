@@ -6,7 +6,7 @@ The proliferation of AI-generated images has raised significant concerns regardi
 
 For this project, we utilize the CIFAKE dataset, which comprises 60,000 synthetically-generated images and an equal number of real images sourced from CIFAR-10. This diverse dataset enables robust training and evaluation of our model.
 
-![CIFAKE Dataset](https://storage.googleapis.com/kaggle-datasets-images/3041726/5227744/64b8381e45aef2060808e31584ed141f/dataset-cover.png)
+![CIFAKE Dataset](dataset-cover.png)
 
 ## Tools and Libraries:
 
