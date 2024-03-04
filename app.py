@@ -31,7 +31,7 @@ def predict(image):
 # Streamlit UI
 st.title('AI vs Real Image Classification')
 st.write('Sample Images to Test' )
-st.image('real1', caption='real1', use_column_width=True)
+st.image('real1.jpg', caption='Sunrise by the mountains')
 uploaded_image = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
 
