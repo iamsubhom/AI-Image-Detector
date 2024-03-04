@@ -50,15 +50,6 @@ with col4:
 # Create a grid layout using HTML/CSS
 
 
-# Display images in the grid layout
-st.write('<div class="grid-container">', unsafe_allow_html=True)
-for image_path in image_paths:
-    st.write('<div class="grid-item">', unsafe_allow_html=True)
-    st.image(image_path, use_column_width=True)
-    st.write('</div>', unsafe_allow_html=True)
-st.write('</div>', unsafe_allow_html=True)
-
-
 
 st.title('AI vs Real Image Classification')
 
