@@ -1,4 +1,4 @@
-import streamlit as st
+aimport streamlit as st
 from PIL import Image
 import numpy as np
 import tensorflow as tf 
@@ -32,7 +32,8 @@ def predict(image):
 st.title('AI vs Real Image Classification')
 
 uploaded_image = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
-
+st.write(Sample Images to Test )
+st.container(st.write('Real'),st.write('Fake'))
 if uploaded_image is not None:
     st.image(uploaded_image, caption='Uploaded Image', use_column_width=True)
     st.write("")
