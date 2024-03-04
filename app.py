@@ -67,11 +67,7 @@ st.write('</div>', unsafe_allow_html=True)
 
 
 st.title('AI vs Real Image Classification')
-#st.write('Sample Images to Test' )
-#st.image('real1.jpg', caption='Real Photo 1')
-#st.image('real2.jpg', caption='Real Photo 2')
-#st.image('Ai1.jpg', caption='Ai Generated Photo 1')
-#st.image('Ai2.jpg', caption='Ai Generated Photo 2')
+
 uploaded_image = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
 
