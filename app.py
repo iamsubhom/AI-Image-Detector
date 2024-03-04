@@ -30,24 +30,6 @@ def predict(image):
 
 # Streamlit UI
 
-# Display images in a grid
-image_paths = [
-    "real1.jpg",
-    "real2.jpg",
-    "Ai1.jpg",
-    "Ai2.jpg"
-]
-col1, col2 = st.columns(2)
-with col1:
-    st.image(image_paths[0], use_column_width=True)
-with col2:
-    st.image(image_paths[1], use_column_width=True)
-col3, col4 = st.columns(2)
-with col3:
-    st.image(image_paths[2], use_column_width=True)
-with col4:
-    st.image(image_paths[3], use_column_width=True)
-# Create a grid layout using HTML/CSS
 
 
 
@@ -67,3 +49,24 @@ if uploaded_image is not None:
         st.write('Real Image')
 
 st.markdown('[Connect Me in LinkedIn](https://www.linkedin.com/in/iamsubhom)')
+
+# Display images in a grid
+image_paths = [
+    "real1.jpg",
+    "real2.jpg",
+    "Ai1.jpg",
+    "Ai2.jpg"
+]
+col1, col2 = st.columns(2)
+with col1:
+    st.image(image_paths[0], use_column_width=True)
+with col2:
+    st.image(image_paths[1], use_column_width=True)
+col3, col4 = st.columns(2)
+with col3:
+    st.image(image_paths[2], use_column_width=True)
+with col4:
+    st.image(image_paths[3], use_column_width=True)
+
+st.title('Test Images ')
+
