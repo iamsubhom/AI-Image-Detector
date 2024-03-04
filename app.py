@@ -29,12 +29,6 @@ def predict(image):
     return prediction
 
 # Streamlit UI
-image_paths = [
-    "image1.jpg",
-    "image2.jpg",
-    "image3.jpg",
-    "image4.jpg"
-]
 
 # Display images in a grid
 image_paths = [
