@@ -54,20 +54,7 @@ with col3:
 with col4:
     st.image(image_paths[3], use_column_width=True)
 # Create a grid layout using HTML/CSS
-st.write(
-    """
-    <style>
-    .grid-container {
-      display: grid;
-      grid-template-columns: auto auto;
-      gap: 10px;
-    }
-    .grid-item {
-      padding: 10px;
-    }
-    </style>
-    """
-)
+
 
 # Display images in the grid layout
 st.write('<div class="grid-container">', unsafe_allow_html=True)
