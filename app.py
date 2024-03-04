@@ -49,7 +49,7 @@ if uploaded_image is not None:
         st.write('Real Image')
 
 st.markdown('[Connect Me in LinkedIn](https://www.linkedin.com/in/iamsubhom)')
-
+st.title('Test Images ')
 # Display images in a grid
 image_paths = [
     "real1.jpg",
@@ -68,5 +68,5 @@ with col3:
 with col4:
     st.image(image_paths[3], use_column_width=True)
 
-st.title('Test Images ')
+
 
